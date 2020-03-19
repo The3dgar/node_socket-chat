@@ -54,7 +54,7 @@ formEnviar.on('submit', function (e) {
   });
 })
 
-function renderizarMensajes(mensajes, yo) {
+function renderizarMensajes(mensaje, yo) {
 
   let html = ''
   let fecha = new Date(mensaje.fecha);
